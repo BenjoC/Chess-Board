@@ -1,7 +1,7 @@
 extends GridContainer
 
-@export var GRID_COLUMNS := 5
-@export var GRID_ROWS := 10
+@export var GRID_COLUMNS := 8
+@export var GRID_ROWS := 8
 @export var TILE_SIZE := Vector2(64, 64)
 @export var colour_a: Color = Color.BLACK
 @export var colour_b: Color = Color.WHITE

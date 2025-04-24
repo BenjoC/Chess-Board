@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://can1mrbaiudsn"]
+
+[ext_resource type="Script" path="res://unit.gd" id="1_v5u5o"]
+[ext_resource type="Texture2D" uid="uid://7gp8vom3xlut" path="res://Assets/pawn.png" id="2_yvwiv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4an2r"]
+size = Vector2(64, 64)
+
+[node name="unit" type="Node2D"]
+script = ExtResource("1_v5u5o")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(142.75, 144)
+scale = Vector2(0.156738, 0.146484)
+texture = ExtResource("2_yvwiv")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_4an2r")

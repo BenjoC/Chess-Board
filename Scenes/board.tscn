@@ -33,4 +33,3 @@ offset_right = 211.0
 offset_bottom = 96.0
 columns = 8
 script = ExtResource("1_ntotv")
-GRID_COLUMNS = 10
